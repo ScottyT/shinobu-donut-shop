@@ -106,6 +106,14 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/shinobu-donut-shop",
+            "netlifyToken": "dS9wJpKARk_NGhxlyg4RylOxGQi1313OL8w3RdFwT24",
+            "siteId": ""
+          }
         }
       }
     }
