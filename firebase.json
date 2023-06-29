@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/shinobu-donut-shop",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
